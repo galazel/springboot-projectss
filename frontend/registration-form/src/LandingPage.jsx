@@ -11,7 +11,7 @@ export default function LandingPage() {
   return (
     <form
       action=""
-      className="mx-auto mt-10 max-w-lg p-10 border border-gray-300 rounded-lg shadow-lg bg-blue-200"
+      className="mx-auto mt-10 p-10 border border-gray-300 rounded-lg shadow-lg bg-blue-200"
     >
       <div className="mx-auto text-center mb-8">
         <h1 className="text-5xl mb-5">Registration Form</h1>
