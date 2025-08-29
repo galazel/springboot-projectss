@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@304&family=Lexend+Giga:wght@100..900&display=swap');
+@import "flowbite/dist/flowbite.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base{
+  body {
+    @apply bg-bodyBackground;
+    @apply font-lexend-giga;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/body-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
